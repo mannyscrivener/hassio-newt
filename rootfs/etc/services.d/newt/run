@@ -1,0 +1,6 @@
+#!/bin/sh
+exec /usr/bin/newt \
+  --id "$(bashio::config 'id')" \
+  --secret "$(bashio::config 'secret')" \
+  --endpoint "$(bashio::config 'endpoint')" \
+  --accept-clients

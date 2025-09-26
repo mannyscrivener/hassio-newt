@@ -1,0 +1,19 @@
+{
+  "name": "Newt Tunnel",
+  "version": "1.0.0",
+  "slug": "newt_tunnel",
+  "description": "Persistent newt client tunnel",
+  "arch": ["aarch64", "amd64", "armv7"],
+  "startup": "services",
+  "boot": "auto",
+  "options": {
+    "id": "",
+    "secret": "",
+    "endpoint": ""
+  },
+  "schema": {
+    "id": "str",
+    "secret": "str",
+    "endpoint": "str"
+  }
+}
